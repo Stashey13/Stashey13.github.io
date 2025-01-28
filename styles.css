@@ -1,4 +1,48 @@
 #header-top {position: relative; color: white; background-color: rgb(65, 0, 65); height: 100px; transition: all 0.3s ease;}
-body {margin: 0; padding: 0;} #stashey {width: 100%; display: flex; flex-direction: column; align-items: center; font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; font-size: 34px; position: absolute; margin-top: 28px; }
-#header-top:hover {background-color: black; height: 170px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.3)} #menu {background-color: black; width: 100%; height: 60px; opacity: 0; position: absolute; top: 100%; left: 0; transition: all 0.3s ease;}
-#header-top:hover #menu {display: block; opacity: 1;}
+body {margin: 0; padding: 0;} #stashey {width: 100%; display: flex; flex-direction: column; align-items: center; font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; font-size: 34px; position: absolute; margin-top: 23px; }
+ 
+#menu {background-color: none; width: 100%; height: 60px; opacity: 1;  transition: all 0.3s ease; display: flex; flex-direction: column; align-items: center;} 
+#links-contain {background-color: black; height: 20px; width: 40%; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; display: flex; flex-direction: column; align-items: center;}
+#links a {color: white; text-decoration: none; font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; margin-left: 90px;}
+#links {display: none; opacity: 0; flex-direction: row; align-items: center; margin-top: 17px; font-size: 19px;} #links a:hover {text-decoration: underline;}
+
+
+#bookmark {
+    width: 120px;
+    height: 160px;
+    background-color: red; 
+    position: absolute;
+    border-radius: 0 0 4px 4px; 
+    top: 0px;
+    right: 20%;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+#bookmark:hover {
+    height: 190px;
+}
+#bookmark:active {height: 190px;}
+
+#bookmark::after {
+    content: '';
+    position: absolute;
+    bottom: -20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 20px solid red; 
+}
+
+/* animations */
+.trans {transition: all 0.2s ease!important;}
+
+.color {background-color: black!important;}
+.height {height: 60px!important;}
+.visibility {display: flex!important; opacity: 1!important;}
+.color2 {background-color: rgb(65, 0, 65)!important;}
+
+
