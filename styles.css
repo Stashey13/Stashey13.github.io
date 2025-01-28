@@ -1,1 +1,4 @@
-#header-top {position: relative; color: white; background-color: black; height: 200px;}
+#header-top {position: relative; color: white; background-color: rgb(65, 0, 65); height: 100px; transition: all 0.3s ease;}
+body {margin: 0; padding: 0;} #stashey {width: 100%; display: flex; flex-direction: column; align-items: center; font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; font-size: 34px; position: absolute; margin-top: 28px; }
+#header-top:hover {background-color: black; height: 170px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.3)} #menu {background-color: black; width: 100%; height: 60px; opacity: 0; position: absolute; top: 100%; left: 0; transition: all 0.3s ease;}
+#header-top:hover #menu {display: block; opacity: 1;}
