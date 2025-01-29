@@ -15,5 +15,14 @@ document.addEventListener('DOMContentLoaded', () => {
         bookmark.classList.toggle('heightB');
       });
 
+
+
+function goHome() {
+  window.location.href = 'https://Stashey13.github.io'
+};
+
+
+
   });
   
+

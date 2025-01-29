@@ -6,7 +6,7 @@ body {margin: 0; padding: 0;} #stashey {width: 100%; display: flex; flex-directi
 #links a {color: white; text-decoration: none; font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; margin-left: 90px;}
 #links {display: none; opacity: 0; flex-direction: row; align-items: center; margin-top: 17px; font-size: 19px;} #links a:hover {text-decoration: underline;}
 
-
+a {color: white}
 #bookmark {
     width: 120px;
     height: 160px;
@@ -22,7 +22,6 @@ body {margin: 0; padding: 0;} #stashey {width: 100%; display: flex; flex-directi
 #bookmark:hover {
     height: 190px;
 }
-#bookmark:active {height: 190px;}
 
 #bookmark::after {
     content: '';
