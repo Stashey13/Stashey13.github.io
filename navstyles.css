@@ -8,7 +8,7 @@ body {margin: 0; padding: 0;} #stashey {width: 100%; display: flex; flex-directi
 
 a {color: white}
 #bookmark {
-    width: 120px;
+    width: 100px;
     height: 160px;
     background-color: red; 
     position: absolute;
