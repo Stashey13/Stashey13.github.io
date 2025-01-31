@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const bookmark = document.getElementById('bookmark');
   
 
+    if (document.documentElement.clientWidth > 1000) {
+
       bookmark.addEventListener('click', () => {
         nav.classList.toggle('color');
         menuCont.classList.toggle('height');
@@ -15,11 +17,17 @@ document.addEventListener('DOMContentLoaded', () => {
         bookmark.classList.toggle('heightB');
       });
 
+    } else {
+  
+      bookmark.addEventListener('click', () =>  {
+
+    
+
+      })
+    }
 
 
-function goHome() {
-  window.location.href = 'https://Stashey13.github.io'
-};
+
 
 
 

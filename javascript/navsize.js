@@ -9,11 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function mobile() { 
         navbar.style.height = "80px";
-        bookmark.style.right = "8%";
+        bookmark.style.right = "8vw";
         olinkbar.style.display = "none";
         olinks.style.display = "none";
-        logo.style.alignItems = "left";
-        logo.style.marginLeft = "10px";
         logo.style.marginTop = "17px";
         bookmark.style.height = "110px";
 
@@ -25,8 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
         bookmark.style.right = ""; 
         olinkbar.style.display = "";
         olinks.style.display = "";
-        logo.style.alignItems = "";
-        logo.style.marginLeft = "";
         logo.style.marginTop = "";
         bookmark.style.height = "";
     }
@@ -47,6 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     });
+
 
 
 
