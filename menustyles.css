@@ -1,0 +1,4 @@
+#mobileMenu {width: 100%; height: 100%; position: absolute; background-color: rgb(65, 0, 65); top: 80px; display: none; visibility: hidden; opacity: 0; transition: all 0.2s ease;}
+
+
+.visibility2 {display: block; visibility: visible; opacity: 1;}

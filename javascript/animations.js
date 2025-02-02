@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuCont = document.getElementById('links-contain');
     const menu = document.getElementById('links');
     const bookmark = document.getElementById('bookmark');
+    const mobileMenu = document.getElementById('mobileMenu');
   
 
     if (document.documentElement.clientWidth > 1000) {
@@ -21,6 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
   
       bookmark.addEventListener('click', () =>  {
 
+      nav.classList.toggle('color');
+      mobileMenu.classList.toggle('visibility2');
     
 
       })
