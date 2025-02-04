@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
       bookmark.addEventListener('click', () => {
         nav.classList.toggle('color');
         mobileMenu.classList.toggle('visibility2');
-        text.classList.toggle('visibility');
+        text.classList.toggle('visibility3');
     
         if (mobileMenu.classList.contains('visibility2')) {
           document.body.style.overflow = 'hidden';
