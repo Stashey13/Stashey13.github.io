@@ -13,6 +13,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <link rel="stylesheet" href="homestyles.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
     </head><body>
 
         <!-- navigation -->
@@ -58,6 +62,31 @@
             </div>
             
         <!-- /navigation -->    
+
+
+    <div id="sect1">
+
+            <img src="./photos/Generated Image.png" alt="AI of Stashey13" id="selfpic"/>
+            <div id="wordsss">
+                # Hello
+            <br>   
+                 ### Hello, this is Stashey13. I am a average kid with way too many hobbies. I like politics and social issues, but am not very into pop culture.
+             I am very into technology, for I think technology is the future. I dabble in many things, but my most proficiant skills are Coding, Video
+             Editing, Graphic Design, Film-Making, Music Making, and A/V along the lines of Live Video Production and Audio Live/Post Production. 
+             Some of my smaller dabbleings include KAD/3D Printing, Photography, Soldering, Writing, and Art. Yes, I also like gaming too. This website isn't 
+             much, I mostly just wanted a place for me to put my writing projects up for anyone to see. For now this website took me like, 20 mintues, but 
+             in the future I will probably experement with stuff on here as well. 
+            </div>
+
+            
+    </div>
+
+
+    <script>
+        const markdownDiv = document.getElementById("wordsss");
+        markdownDiv.innerHTML = marked.parse(markdownDiv.innerText);
+    </script>
+
 
     </body>
 </html>
